@@ -1,0 +1,449 @@
+/* Smartphones */
+@media (max-width: 767px) {
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    .index-page .navbar-brand img {
+        width: 155px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .index-page .defaultNavbar,
+    .index-page .banner .col-3,
+    .index-page .team-desc .col-7.md-12 {
+        width: 100%;
+    }
+
+    .index-page .banner {
+        height: 550px;
+    }
+
+    .index-page .features .container,
+    .index-page .featured-topics .container,
+    .index-page .about-banner .container,
+    .index-page .about-banner .box-content,
+    .index-page .team-desc,
+    .main-voiceroom-container {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .index-page .featured-topics h1 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    .index-page .featured-topics .row {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .index-page .featured-topics .card {
+        margin: 0;
+    }
+
+    .index-page .featured-topics .card {
+        width: 160px !important;
+        height: 445px !important;
+    }
+
+    .index-page .features-cards .card-text {
+        margin: -83px auto;
+        margin-bottom: -50px;
+    }
+
+    .index-page .features-cards .card-image {
+        width: 80%;
+    }
+
+    .index-page .featured-topics .card-title,
+    .index-page .about-banner .box-content h5 {
+        font-size: 15px;
+    }
+
+    .index-page .featured-topics .card-text {
+        font-size: 12px;
+    }
+
+    .index-page .about-banner {
+        height: 400px;
+    }
+
+    .index-page .about-banner img {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        width: 55%;
+    }
+
+    .index-page .about-banner .box-content {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .index-page .contacts .container,
+    .index-page .contacts ul,
+    .index-page .contacts span {
+        margin: 0;
+        padding: 0;
+    }
+
+    .agreement-policy-page .agreement-page .logo {
+        height: 100%;
+        text-align: center;
+    }
+
+    .agreement-policy-page .agreement-page .logo img,
+    .login-page .logo img,
+    .signup-page .logo img {
+        width: 100%;
+        border: none;
+        height: 3.5rem;
+        margin-top: 10px;
+    }
+
+    .agreement-page .navbar.bg-body-tertiary,
+    .login-page .navbar.bg-body-tertiary,
+    .signup-page .navbar.bg-body-tertiary {
+        flex-direction: column;
+    }
+
+    .agreement-page .description {
+        padding: 1.5rem;
+        text-align: left;
+    }
+
+    .agreement-page .description h1 {
+        text-align: center;
+    }
+
+    .registration-form .login-form,
+    .registration-form .reset-form,
+    .signup-page .registration-form .reg-form {
+        margin: 1rem;
+        width: 95%;
+    }
+
+    .login-page .reg-form,
+    .signup-page .reg-form {
+        padding: 14px;
+    }
+
+    .login-page .reg-form h1,
+    .signup-page .reg-form h1 {
+        font-size: 1.4rem;
+        margin: 0;
+    }
+
+    .login-page .reg-form p,
+    .signup-page .reg-form p {
+        font-size: 12px;
+    }
+
+    /* Admin Side */
+    .admin-side .header {
+        height: auto;
+    }
+
+    .admin-side ul.justify-content-end {
+        justify-content: center !important;
+    }
+
+    .admin-side .admin-tables,
+    .user-index .feeds {
+        padding: 1rem;
+    }
+
+    .admin-side .btn-options input {
+        margin-right: 12px;
+    }
+
+    /* User Side */
+    .user-landing-page .left-sidebar .sidebar-wrapper {
+        position: relative;
+        width: 3rem;
+        height: 100%;
+    }
+
+    .user-landing-page .a-tag,
+    .notifications {
+        padding: 7px;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .user-landing-page .sidebar-wrapper label,
+    .user-index .right-sidebar {
+        display: none !important;
+    }
+
+    .user-landing-page .left-sidebar .bi {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .user-index .sidebar-dp {
+        width: 30px;
+        height: 30px;
+    }
+
+    .user-index .btn-post,
+    .user-index .feeds p {
+        font-size: 12px;
+    }
+
+    .user-index .feeds {
+        padding: 1rem;
+    }
+
+    .user-index .sm-avatar,
+    .profile-feed .comment-avatar,
+    .user-index .display-photo {
+        width: 26px;
+        height: 26px;
+    }
+
+    .user-index .feeds h5,
+    .users-contents .bi-three-dots,
+    .user-index .posted-feed input,
+    #createPostDialog .form-select.dropdown-selector,
+    .user-index button,
+    .notifications-list p {
+        font-size: 13px !important;
+    }
+
+    .user-index .posted-feed {
+        padding: 10px;
+    }
+
+    .notifications-list .notifs {
+        padding: 0;
+    }
+
+    .notification-option .notif-opt-btn {
+        width: 10rem;
+    }
+
+    .social-buttons button {
+        font-size: 11px;
+        width: 32%;
+    }
+
+    #createPostDialog .modal-title {
+        font-size: 15px !important;
+    }
+
+    .input-data textarea,
+    .profile-page p,
+    .profile-page .btn-edit-profile label {
+        font-size: 12px !important;
+    }
+
+    .notification-dropdown {
+        width: 22.5rem;
+    }
+
+    .notification-option button {
+        width: 10rem;
+    }
+
+    .profile-page .profile-feed .cover-bg {
+        height: auto;
+    }
+
+    .profile-page .profile-feed .cover-bg img {
+        height: 245px;
+    }
+
+    .profile-page .profile-feed .user-profile-img img {
+        height: 100px;
+        margin: -120px auto 24px auto;
+        object-fit: contain;
+    }
+
+    .profile-page .user-name {
+        font-size: 16px;
+    }
+
+    .profile-page .user-posted-contents {
+        margin: auto;
+        margin-top: 1rem;
+        padding: 9px;
+        border-radius: 7px;
+    }
+
+    .post-input .profile-btn-post {
+        width: 90%;
+    }
+
+    .profile-feed .feeds {
+        margin: 0;
+    }
+
+    #editProfileForm .row {
+        flex-direction: column;
+    }
+
+    #editProfileForm .col-6 {
+        padding: 0;
+        width: 100%;
+    }
+
+    .edit-profile .display-img {
+        width: auto;
+    }
+
+    .edit-profile .choose-avatar {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #editProfileForm .choose-avatar p {
+        display: flex;
+    }
+
+    .edit-profile .display-avatar {
+        width: auto;
+        height: 55px;
+        object-fit: contain;
+    }
+
+    .vroom-page .navbar-top {
+        padding: 0;
+    }
+
+    .vroom-page .page-title,
+    #guildInformation h2,
+    .modal-post-input .bi-images {
+        font-size: 16px;
+    }
+
+    .vroom-page .vroom-container .row {
+        align-items: center;
+    }
+
+    .vroom-page .vroom-container .col-3,
+    .vroom-container .join-btn {
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+
+    .vroom-container .croom-btn {
+        width: 50%;
+    }
+
+    .vroom-container .search-container input,
+    #guildInformation p,
+    .message-content p {
+        font-size: 13px;
+    }
+
+    .vroom-page .vroom-container .col-2,
+    .user-index .za-filter-guilds,
+    .msg-page .name-msg,
+    .msg-page .msg-option,
+    .msg-page .search-box,
+    .msg-page .options,
+    .convo-page .search-box,
+    .convo-page .options,
+    .convo-page .msg-right-sidebar,
+    .convo-page .name-msg,
+    .convo-page .option-btn {
+        display: none;
+    }
+
+    .vroom-page .main-voiceroom-container {
+        padding-top: 5rem;
+        padding-bottom: 1rem !important;
+    }
+
+    .vroom-page .voice-room-details {
+        flex-direction: column;
+    }
+
+    .vroom-page .room-description {
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .vroom-page .stream-wrapper {
+        padding: 0;
+    }
+
+    .main-voiceroom-container .vid-streams {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .guild-page .outer-container {
+        flex-direction: column;
+    }
+
+    .guild-page .input-container {
+        display: block;
+    }
+
+    .guild-page .input-container input {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .main-guild-feed .banner {
+        height: auto;
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .user-index .guild-logo img {
+        width: 5rem;
+        height: auto;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .guild-page .guild-btn {
+        width: 38%;
+    }
+
+    .guild-page .guild-btn label {
+        margin: 0 !important;
+    }
+
+    .msg-container .chat-wrapper {
+        width: auto;
+        margin-top: 3.5rem;
+    }
+
+    .msg-container .chat-wrapper .chat-container {
+        height: 100%;
+        margin: 0;
+    }
+
+    .msg-container .chat-list {
+        padding: 0;
+    }
+
+    .msg-container .chat-list .user-img {
+        width: auto;
+    }
+
+    .msg-container .chat-list .user-img img {
+        width: 70%;
+        object-fit: contain;
+    }
+
+    .msg-content {
+        width: 100%;
+    }
+
+    .message-wrapper .avatar {
+        height: 33px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {}
